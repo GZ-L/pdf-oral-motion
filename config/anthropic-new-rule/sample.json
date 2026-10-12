@@ -1,0 +1,48 @@
+{
+  "slug": "anthropic-new-rule",
+  "aspect": "16:9",
+  "skin": "ui-demo",
+  "palette": {
+    "bg": "#0B0D10",
+    "surface": "#161A22",
+    "text": "#F4F6FA",
+    "muted": "#9AA3B2",
+    "accent": "#C8FF3D",
+    "accent_2": "#FF6B4A",
+    "warn": "#FFD166",
+    "card_border": "#2A3140"
+  },
+  "caption_style": {
+    "position": "bottom_safe",
+    "safe_margin_pct": 15,
+    "font": "sans-bold",
+    "size_rel": "md",
+    "color": "#FFFFFF",
+    "stroke": "#000000",
+    "stroke_width": 2,
+    "align": "center"
+  },
+  "capsule_style": {
+    "radius": 12,
+    "padding_px": 16,
+    "bg": "#161A22CC",
+    "border": "#2A3140",
+    "title_color": "#C8FF3D",
+    "body_color": "#F4F6FA"
+  },
+  "seedance_profile": "four-beat-v1",
+  "lens_vocab": "24-terms-v1",
+  "sample_shot_ids": ["s00", "s11", "s41"],
+  "notes": {
+    "sample_goal": "只验风格/节奏/字幕稳定区，不换文案",
+    "guardrails": [
+      "主线=使用政策",
+      "刑房非新规起因",
+      "Pain Axis 数字带条件",
+      "微软=背景对照早于新规",
+      "结尾果汁固定句"
+    ],
+    "missing_for_render": ["A-roll", "部分官方截图可先字卡代替"],
+    "next": "S3 出样片 mp4 后量产只改 talk/on_screen_text"
+  }
+}
