@@ -1,0 +1,17 @@
+# 提纲 schema（进线门禁）
+# 对应母版 §1.2
+title: string                 # 成片主标题（必填）
+hook: string                  # 开场 0–3s 口播钩子（必填）
+audience: string              # 谁看（可选）
+chapters:                     # ≥2（必填）
+  - id: string                # e.g. c1
+    title: string
+    beats:                    # ≥1
+      - claim: string         # 这一镜要讲清的结论
+        talk: string          # 口播稿（可先空）
+        visual: string        # 画面意图
+ending: string                # 结尾口播（默认可「我是果汁…」）
+meta:
+  duration_target_sec: number # 建议 60–180
+  aspect: "16:9"              # 默认
+  skin: "ui-demo" | "stickman"

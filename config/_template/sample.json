@@ -1,0 +1,11 @@
+{
+  "slug": "REPLACE",
+  "aspect": "16:9",
+  "skin": "ui-demo",
+  "palette": {},
+  "caption_style": {},
+  "capsule_style": {},
+  "seedance_profile": "four-beat-v1",
+  "lens_vocab": "24-terms-v1",
+  "sample_shot_ids": ["s00", "s01"]
+}

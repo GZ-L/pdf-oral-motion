@@ -1,0 +1,13 @@
+.DS_Store
+*.mp4
+*.mov
+*.wav
+*.mp3
+.env
+.env.*
+*.log
+__pycache__/
+.venv/
+export/**/master-16x9.mp4
+export/**/shorts/
+# 允许保留目录结构；大媒体默认不入库，样片请用 Git LFS 或外链说明

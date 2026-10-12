@@ -1,0 +1,21 @@
+title: "示例标题"
+hook: "开场钩子一句"
+audience: "创作者"
+chapters:
+  - id: c1
+    title: "第一章"
+    beats:
+      - claim: "这一镜的结论"
+        talk: ""
+        visual: "画面意图"
+  - id: c2
+    title: "第二章"
+    beats:
+      - claim: "结论二"
+        talk: ""
+        visual: "画面意图"
+ending: "我是果汁，每天分享更多好用的 AI 知识"
+meta:
+  duration_target_sec: 90
+  aspect: "16:9"
+  skin: "ui-demo"

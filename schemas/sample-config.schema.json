@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sample-config",
+  "type": "object",
+  "required": ["slug", "aspect", "skin", "seedance_profile", "lens_vocab"],
+  "properties": {
+    "slug": { "type": "string" },
+    "aspect": { "type": "string", "const": "16:9" },
+    "skin": { "type": "string", "enum": ["ui-demo", "stickman"] },
+    "palette": { "type": "object" },
+    "caption_style": { "type": "object" },
+    "capsule_style": { "type": "object" },
+    "seedance_profile": { "type": "string", "examples": ["four-beat-v1"] },
+    "lens_vocab": { "type": "string", "examples": ["24-terms-v1"] },
+    "sample_shot_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

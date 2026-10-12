@@ -1,0 +1,13 @@
+# 每镜强制字段（S1，对齐镜头 24 词表）
+shot_id: string               # e.g. s01
+chapter_id: string            # e.g. c1
+lens: string                  # 必须用词表专名（禁止「好看一点」）
+duration_sec: number
+talk: string
+on_screen_text: string
+motion:                       # Seedance 四段式
+  setup: string
+  action: string
+  hold: string
+  out: string
+safe_zone: string             # 真人/字幕稳定区备注
